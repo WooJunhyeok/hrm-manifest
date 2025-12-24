@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: image-registry.openshift-image-registry.svc:5000/hrm-project/nginx:latest
+          image: image-registry.openshift-image-registry.svc:5000/hrm-project/nginx:v1.0.3
           ports:
             - containerPort: 80
